@@ -1,6 +1,6 @@
 {
   "name": "clubhouse-electron",
-  "productName": "clubhouse-electron",
+  "productName": "Clubhouse",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -16,7 +16,9 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+         "icon": "assets/icon.icns"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
